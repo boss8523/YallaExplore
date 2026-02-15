@@ -25,7 +25,7 @@ const askAI = async (userInput: string) => {
   setLoading(true);
   try {
     // 1. Call your n8n webhook
-    const response = await fetch('https://abdigetu.app.n8n.cloud/webhook/generate-itinerary', {
+    const response = await fetch('', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userInput }),
