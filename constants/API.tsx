@@ -4,6 +4,6 @@ const STRAPI_API_KEY = '0570eb62894d5a198dd459e40a032fe1831736c28700de4daaffae75
 
 // Google Maps Static API Key - Get one from https://console.cloud.google.com
 // Steps: 1. Enable Maps Static API, 2. Create API key, 3. Paste below
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBSsFC5SJzvbiCcf7pdXlMofDmWVRPCUfk'; // Paste your Google Maps API key here
+const GOOGLE_MAPS_API_KEY = ''; // Paste your Google Maps API key here
 
 export { STRAPI_URL, STRAPI_API_KEY, GOOGLE_MAPS_API_KEY };
